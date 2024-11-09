@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" >
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/bg_dark"
+        android:layout_marginHorizontal="30dp"
+        app:cardCornerRadius="10sp"
+        android:layout_marginTop="10dp"
+        app:cardElevation="10dp"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circle"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10sp"
+            android:padding="10dp"
+            app:tint="@color/bg_dark"
+            app:srcCompat="@drawable/user_filled_svgrepo_com" />
+
+        <TextView
+            android:id="@+id/username_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_gravity="end"
+            android:textSize="20sp"
+            android:fontFamily="@font/coolvetica_rg"
+            android:layout_marginTop="15sp"
+            android:layout_marginEnd="20dp"
+            android:text="Loading..." />
+
+        <TextView
+            android:id="@+id/Guest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="viewEnd"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/coolvetica_rg"
+            android:text="Guest"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/email_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_gravity="end"
+            android:textSize="13dp"
+            android:layout_marginTop="40sp"
+            android:layout_marginEnd="10dp"
+            android:text="Loading..." />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/black"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" >
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/news1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EAEAEA"
+        android:orientation="vertical"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"
+        android:elevation="20sp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/line">
+
+
+        <TextView
+            android:id="@+id/new1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:fontFamily="@font/coolvetica_rg"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:text="New !"
+            android:textColor="#C62828" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/NewsTitle1"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/coolvetica_rg"
+                android:textColor="@color/colorAccent"
+                android:text="Loading..."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/newsDescription1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:text="Loading..."
+                android:textColor="@color/dark_grey"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/newsDate1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:gravity="end"
+                android:text="--/--/----"
+                android:textColor="@color/dark_grey"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/news2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EAEAEA"
+        android:orientation="vertical"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"
+        android:elevation="20sp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/news1">
+
+        <TextView
+            android:id="@+id/new2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:fontFamily="@font/coolvetica_rg"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:text="New !"
+            android:textColor="#C62828" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/NewsTitle2"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/coolvetica_rg"
+                android:textColor="@color/colorAccent"
+                android:text="Loading..."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/newsDescription2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:text="Loading..."
+                android:textColor="@color/dark_grey"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/newsDate2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:gravity="end"
+                android:text="--/--/----"
+                android:textColor="@color/dark_grey"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/news3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EAEAEA"
+        android:orientation="vertical"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"
+        android:elevation="20sp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/news2">
+
+        <TextView
+            android:id="@+id/new3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:fontFamily="@font/coolvetica_rg"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:text="New !"
+            android:textColor="#C62828" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/NewsTitle3"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/coolvetica_rg"
+                android:textColor="@color/colorAccent"
+                android:text="Loading..."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/newsDescription3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:text="Loading..."
+                android:textColor="@color/dark_grey"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/newsDate3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:gravity="end"
+                android:text="--/--/----"
+                android:textColor="@color/dark_grey"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginHorizontal="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/news3">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

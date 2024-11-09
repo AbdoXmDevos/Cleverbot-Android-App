@@ -1,0 +1,68 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">CleverBot</string>
+
+
+    <!-- Splash -->
+    <string-array name="Splash_Tips">
+        <item>Welcome to CleverBot App where you\'ll meet the best AI partner ever</item>
+        <item>Did you know that the bot\'s name is Alex, cool right ?</item>
+        <item>By rating the app you\'ll be helping us work more and more on the app</item>
+        <item>The bot Alex can do Math, Coding, Writing and much more to discover !</item>
+        <item>Don\'t be shy with Alex the bot, he\'s here just to help !</item>
+        <item>Your satisfaction is our priority have that in mind !\u2665</item>
+    <!-- <item>This app contains some ads to help us provide you a 24/7 active bot !</item> -->
+        <item>By long clicking a message you can either delete or copy the message\'s text</item>
+        <item>You\'re not required to sign in to chat (*but it\'s recommended)</item>
+    <!-- <item>You have an important answer from Alex the bot ? \n Save it so you can see it later</item> -->
+        <item>Any data entered in this application wouldn\'t be used anywhere else ! </item>
+ </string-array>
+
+ <!-- Chat welcomer -->
+    <string-array name="Welcome_msg">
+        <item>Welcome to ChatBot App, you can ask me any question you want !</item>
+        <item>Hello human want some help ?</item>
+        <item>Hello, have something in  mind ?</item>
+        <item>Hey my name is Alex, at your service !</item>
+        <item>Hey I\'m Alex, you want chat ?</item>
+    </string-array>
+
+    <!-- Main -->
+
+    <!-- Intro -->
+    <string name="title_onboarding_1">Welcome to Cleverbot App !</string>
+    <string name="description_onboarding_1">This app is your little partner that response to any question you have !</string>
+
+    <string name="title_onboarding_2">Why choosing this app ?</string>
+    <string name="description_onboarding_2">As we all know that the web version is not accessible all the time, that\'s why we created a mobile version to be with you anywhere anytime</string>
+
+    <string name="title_onboarding_3">What to expect from this app ?</string>
+    <string name="description_onboarding_3">Our mission is to make this app be in the perfect possible shape by updating it, and bringing more and more features to it every time</string>
+
+    <string name="start_text_advice">By continuing on this application you agree to our Terms of Use and Privacy Policy</string>
+
+    <string name="start">start</string>
+    <string name="skip">Skip</string>
+    <string name="finish">finish</string>
+    <string name="next">next</string>
+    <string name="back">back</string>
+
+
+
+    <!-- About us 1 -->
+    <string name="about_us_title_1">Title about us 1</string>
+    <string name="about_us_desc_1">Description about us 1</string>
+
+    <!-- About us 2 -->
+    <string name="about_us_title_2">Title about us 2</string>
+    <string name="about_us_desc_2">Description about us 2</string>
+
+    <!-- About us 3 -->
+    <string name="about_us_title_3">Title about us 3</string>
+    <string name="about_us_desc_3">Description about us 3</string>
+
+    <!-- Ads -->
+<!--    <string name="banner_Id">ca-app-pub-4140935255351753/4228907471</string>-->
+    <string name="banner_Id">ca-app-pub-4140935255351753/4228907471</string>
+
+</resources>

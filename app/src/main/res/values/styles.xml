@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DarkTheme" parent="Theme.ChatGptBackup">
+
+    </style>
+
+
+    <style name="lightmode" parent="Theme.ChatGptBackup">
+
+
+    </style>
+
+    <style name="AlertDialogRate" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:colorBackground">@color/bg_light</item>
+        <item name="android:textColor">#FFAB00</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="buttonBarNeutralButtonStyle">@style/NeutralButtonStyleRate</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyleRate</item>
+    </style>
+
+    <style name="NeutralButtonStyleRate" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="PositiveButtonStyleRate" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">#FFAB00</item>
+    </style>
+
+
+    
+</resources>

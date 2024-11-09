@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "47959076461",
+    "firebase_url": "https://chatgpt-backup-1bc26-default-rtdb.firebaseio.com",
+    "project_id": "chatgpt-backup-1bc26",
+    "storage_bucket": "chatgpt-backup-1bc26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47959076461:android:23241c2adba861fb1b1964",
+        "android_client_info": {
+          "package_name": "com.abdoxm.cleverbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47959076461-qg1p2eco80ulemb683v8tam6bqbn848i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdoxm.cleverbot",
+            "certificate_hash": "7e4a5e73bae427b5342295a2a853251af6bd27b9"
+          }
+        },
+        {
+          "client_id": "47959076461-bfhu8kps9qu1gtgi8181vft74k9s97kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFiO8FYXPPa8FUXpZrAwMAjwOAJ4ZpngY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47959076461-bfhu8kps9qu1gtgi8181vft74k9s97kk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

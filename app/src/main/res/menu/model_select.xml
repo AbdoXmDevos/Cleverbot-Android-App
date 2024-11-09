@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+                <item android:id="@+id/chatgpt"
+                    android:title="1- Chatgpt-3.5-Turbo (Default)"/>
+                <item android:id="@+id/davinci"
+                    android:title="2- Davinci (auxiliary)"/>
+
+</menu>

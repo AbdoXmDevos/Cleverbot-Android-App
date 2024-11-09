@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/botMsg"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/botImg"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/circle"
+                android:backgroundTint="@color/dark_grey"
+                android:padding="5dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginBottom="1dp"
+                tools:srcCompat="@drawable/bot"
+                app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/botText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/left_background"
+                android:elevation="2dp"
+                android:padding="10dp"
+                android:text="Hello this is me!!"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/botTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewEnd"
+                android:layout_marginStart="10dp"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="00:00" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/userMsg"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/userImg"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginBottom="1dp"
+                android:layout_gravity="end"
+                android:background="@drawable/circle"
+                android:backgroundTint="@color/bg_light"
+                android:padding="5dp"
+                app:tint="@color/white"
+                tools:srcCompat="@drawable/user_filled_svgrepo_com" />
+
+            <TextView
+                android:id="@+id/userText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/right_background"
+                android:layout_gravity="end"
+                android:elevation="2dp"
+                android:padding="10dp"
+                android:text="Hi!! How are you!!"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/userTime"
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:layout_marginEnd="10dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
